@@ -3,11 +3,11 @@ interface ProductItemProps {
   image: string;
 }
 
-import bolodemilhoImage from "@/assets/bolodemilho.jpg";
-import sonho from "@/assets/sonho.jpg";
-import boloImage from "@/assets/bolo.jpg";
-import mousse from "@/assets/mousse.jpg";
-import broa from "@/assets/broa.jpg";
+import bolodemilhoImage from "/uploads/bolodemilho.jpg";
+import sonho from "/uploads/sonho.jpg";
+import boloImage from "/uploads/bolo.jpg";
+import mousse from "/uploads/mousse.jpg";
+import broa from "/uploads/broa.jpg";
 
 const ProductItem = ({ title, image }: ProductItemProps) => {
   return (
@@ -29,11 +29,11 @@ const ProductItem = ({ title, image }: ProductItemProps) => {
 
 const Products = () => {
   const products = [
-    { title: "Bolo de Milho", image: bolodemilhoImage },
-    { title: "Sonho e Cueca Virada", image: sonho },
-    { title: "Bolo de Festa", image: boloImage },
-    { title: "Mousse de Maracúja", image: mousse },
-    { title: "Broa", image: broa },
+  { title: "Bolo de Milho", image: "/uploads/bolodemilho.jpg" },
+  { title: "Sonho e Cueca Virada", image: "/uploads/sonho.jpg" },
+  { title: "Bolo de Festa", image: "/uploads/bolo.jpg" },
+  { title: "Mousse de Maracúja", image: "/uploads/mousse.jpg" },
+  { title: "Broa", image: "/uploads/broa.jpg" },
   ];
 
   return (

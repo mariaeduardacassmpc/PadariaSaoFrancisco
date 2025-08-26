@@ -7,7 +7,7 @@ const Header = () => {
         <div className="container mx-auto px-2 py-2">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-               <img src="/src/assets/logo 1.png" alt="Logo" className="h-16 w-auto border-none shadow-none bg-transparent" />
+               <img src="/uploads/logo 1.png" alt="Logo" className="h-16 w-auto border-none shadow-none bg-transparent" />
             </div>
             <div className="flex items-center gap-6 text-foreground">
               <a href="tel:+5543991502248" className="flex items-center gap-2 hover:text-[#bfa181] transition-colors">

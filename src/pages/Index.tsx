@@ -21,7 +21,7 @@ const Index = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center gap-4">
-            <img src="/src/assets/frango.jpg" alt="Frango Assado" className="w-64 h-48 object-cover rounded-lg shadow-md" />
+            <img src="/uploads/frango.jpg" alt="Frango Assado" className="w-64 h-48 object-cover rounded-lg shadow-md" />
             <button className="bg-secondary text-black font-bold py-2 px-6 rounded-lg shadow hover:bg-orange-200 transition-colors">
               Reservar
             </button>

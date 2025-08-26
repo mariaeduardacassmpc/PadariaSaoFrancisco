@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <img src="/src/assets/logobranca.png" alt="Logo Padaria" className="w-56 h-56 object-contain -mt-12" />
+              <img src="/uploads/logobranca.png" alt="Logo Padaria" className="w-56 h-56 object-contain -mt-12" />
             <h3 className="text-lg font-poppins font-semibold mb-4 -mt-8">
               Padaria São Francisco
             </h3>
@@ -58,10 +58,11 @@ const Footer = () => {
             </div>
             </div>
           <div>
-            <img src="/src/assets/logomaria.png"  className="w-25 h-20 mt-0 -ml-22" />
+            <a href="https://wa.me/5543999311445?text=Desejo%20fazer%20um%20orçamento" target="_blank" rel="noopener noreferrer">
+              <img src="/uploads/logomaria.png" alt="LogoMaria" className="w-25 h-20 mt-60 ml-72 cursor-pointer" />
+            </a>
           </div>
         </div>
-        
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60 font-poppins">
             © 2024 Padaria São Francisco. Todos os direitos reservados.

@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-bakery.jpg";
+// import heroImage from "@/assets/hero-bakery.jpg";
 
 const Hero = () => {
   return (
@@ -6,7 +6,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${heroImage})`,
+          backgroundImage: `url(/uploads/hero-bakery.jpg)`,
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/60 to-transparent"></div>
