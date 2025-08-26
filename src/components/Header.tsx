@@ -9,7 +9,7 @@ const Header = () => {
             <div className="flex items-center space-x-2">
                <img src="/uploads/logo 1.png" alt="Logo" className="h-16 w-auto border-none shadow-none bg-transparent" />
             </div>
-            <div className="flex items-center gap-6 text-foreground">
+            <div className="hidden md:flex items-center gap-6 text-foreground">
               <a href="tel:+5543991502248" className="flex items-center gap-2 hover:text-[#bfa181] transition-colors">
                 <Phone size={14} />
                 <span className="font-poppins">(43) 99150-2248</span>

@@ -40,9 +40,17 @@ const Products = () => {
     <section id="produtos" className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center">
-          {products.map((product, index) => (
-            <ProductItem key={index} {...product} />
-          ))}
+          {products.map((product, index) => {
+            // Centraliza o 5º produto apenas em mobile
+            if (index === 4) {
+              return (
+                <div className="col-span-2 md:col-span-1 lg:col-span-1 flex justify-center" key={index}>
+                  <ProductItem {...product} />
+                </div>
+              );
+            }
+            return <ProductItem key={index} {...product} />;
+          })}
         </div>
       </div>
     </section>

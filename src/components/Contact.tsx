@@ -66,7 +66,7 @@ const Contact = () => {
               
               <div>
                 <h4 className="font-poppins font-semibold text-foreground mb-1 mt-10">Telefone</h4>
-                <p className="text-muted-foreground font-poppins">(43) 3242-2380 | (43) 99150-2248</p>
+                <p className="text-muted-foreground font-poppins">(43) 99150-2248</p>
               </div>
             </CardContent>
           </Card>
